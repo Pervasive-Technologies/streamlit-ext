@@ -109,21 +109,15 @@ def download_button(
                 padding: 0.4em 0.6em;
                 position: relative;
                 text-decoration: none;
-                border-radius: 4px;
                 border-width: 1px;
                 border-style: solid;
                 border-color: rgba(49, 51, 63, 0.2);
                 border-image: initial;
+                border-radius: 0.5rem; 
+                display: inline-flex;
+                width: 100%;
+                justify-content: center;
             }}
-            #{button_id}:hover {{
-                border-color: rgb(246, 51, 102);
-                color: rgb(246, 51, 102);
-            }}
-            #{button_id}:active {{
-                box-shadow: none;
-                background-color: rgb(246, 51, 102);
-                color: white;
-                }}
         </style> """
 
     dl_link = (
