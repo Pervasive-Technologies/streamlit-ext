@@ -117,8 +117,6 @@ def download_button(
                 display: inline-flex;
                 width: 100%;
                 justify-content: center;
-                border-color: #00145e;
-                color: #00145e;
             }}
             #{button_id}:hover {{
                 border-color: #00145e;
